@@ -1,5 +1,10 @@
 # THM Writeup : Overpass
 
+**Disclaimer : 
+This writeup is for educational purpose only.
+Do not use these techniques on systems you do not own or do not have explicit authorization to test.
+I am not responsible for any misuse of the information provided here.**
+
 ## Overview
 
 Overpass is a THM machine, the level is marked as easy.
