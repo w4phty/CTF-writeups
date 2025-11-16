@@ -167,10 +167,3 @@ In the listener, we got a shell as root!
 From here we can retrieve the final flag :)
 
 ![screenshot](images/user13-get-root-shell.PNG)
-
-<style>
-  body {
-    background-color: #222222ff;
-    color: #e6e6e6ff;
-  }
-</style>
