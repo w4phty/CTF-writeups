@@ -130,7 +130,7 @@ The directories from $PATH are not writeable, so I decided to try anyway, adding
 
 ![screenshot](images/user7-try-exploit-date.PNG)
 
-After waiting for a few minutes for the cron job to execute, we can see that this method does not work : the PATH variable used is the one set in /etc/crontab, which does not contain /home/james, making our fake date file not visible by bash when running echo "($date -R)".
+After waiting for a few minutes for the cron job to execute, we can see that this method does not work : the PATH variable used is the one set in /etc/crontab, which does not contain /home/james, making our fake date file not visible by bash when running echo "$(date -R)".
 
 After a while, I realized that the command curl overpass.thm/downloads/src/buildscript.sh can be exploited :)
 
