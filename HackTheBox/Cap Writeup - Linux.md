@@ -1,4 +1,4 @@
-# HTB Writeup : Cap
+# HackTheBox Writeup : Cap
 
 **Disclaimer : 
 This writeup is for educational purpose only.
